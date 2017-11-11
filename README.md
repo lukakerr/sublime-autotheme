@@ -6,7 +6,7 @@ If the time is between 7PM-7AM, a dark theme will be applied, otherwise a light 
 
 You can change these times inside `autotheme.sh`:
 
-- Go to this line: `if [ $time -gt 1900 -a $time -lt 700 ]; then`
+- Go to this line: `if [[ $time -gt 1900 || $time -lt 700 ]]; then `
 - `1900` is 7PM in 24 hour time and `700` is 7AM in 24 hour time
 - Change these to your desired times at which a dark theme will be applied
 
