@@ -3,7 +3,7 @@
 ############################################
 ### VARIABLES THAT NEED REPLACING BY YOU ###
 ############################################
-# Copy the exact full line for your dark and light color schemes including the quotes "" as shown below
+# Copy the exact full line for your dark and light color schemes including the quotes "" and trailing comma , as shown below
 # You can get this exact full line in your sublime preferences file by going to Sublime Text -> Preferences -> Settings
 # line: the line in the sublime preferences on which your "color_scheme" key is
 # preferences: the location of your sublime preferences (this may not need to be changed)
