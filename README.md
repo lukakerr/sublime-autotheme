@@ -13,7 +13,7 @@ You can change these times inside `autotheme.sh`:
 ### How to use
 
 1. Inside `autotheme.sh` there are 4 variables you need to change. See the comments in `autotheme.sh` to do this.
-2. Once you have made the changes simply run `install.sh`. This will ask for your password so it can copy `autotheme.sh` into `/usr/local/bin`.
+2. Once you have made the changes simply run `./install.sh`. This will ask for your password so it can copy `autotheme.sh` into `/usr/local/bin`.
 
 A launch agent in `~/Library/LaunchAgents/` will run `autotheme.sh` on the hour.
 
