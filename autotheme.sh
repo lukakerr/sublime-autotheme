@@ -21,7 +21,7 @@ light_theme_escaped=${light_theme//\//\\/}
 light_color_scheme_escaped=${light_color_scheme//\//\\/}
 
 run() {
-  if [ $time -gt 1900 -a $time -lt 700 ]; then 
+  if [[ $time -gt 1900 || $time -lt 700 ]]; then 
     # Time is between 7PM and 7AM
     theme=$dark_theme_escaped
     color_scheme=$dark_color_scheme_escaped
